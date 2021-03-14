@@ -1,0 +1,78 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  align-content: space-between;
+  height: 50%;
+  width: 50%;
+
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+/*body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: url("Images/bg1.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}*/
+body{
+    height: 100%;
+    /*width: 50%;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size:28px;
+    color: white;
+    background-color: #f3f2f2;
+    background-image: url('Images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 60px);
+    position: relative;
+    z-index:-1;
+}
+button {
+  background: #FDD54F;
+  font-size: 28px;
+  width: 25%;
+}
+#submit {
+  background: #FDD54F;
+  font-size: 28px;
+  width: 25%;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -180px;
+  width: 350px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+/*#latlng {
+  width: 225px;
+}
+*/
